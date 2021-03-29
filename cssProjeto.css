@@ -1,0 +1,436 @@
+
+    *{
+            text-align: unset;
+            overflow-x: hidden;
+            margin:0;
+            box-sizing: border-box;
+
+        }
+
+       p {
+         font-family: "Overpass";
+         font-size: 16px;
+         font-weight: 300;
+       }
+
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+
+        .cabecalho {
+        background-image: linear-gradient(to right,hsl(13, 100%, 72%), hsl(353, 100%, 62%, 0.2)), url('file:///C:/Users/karen/OneDrive/%C3%81rea%20de%20Trabalho/JS/blogr-landing-page-main/images/bg-pattern-intro.svg');
+        background-size: 450, 40%;
+        background-position: center, center;
+        border-bottom-left-radius: 20%;
+        background-repeat: no-repeat, no-repeat;
+        padding-bottom: 50px, solid;
+        }
+
+        .logo {
+            display: inline;
+            height: 80;
+            
+        }
+
+        .logo img{
+            margin-left: 10px;
+            padding-top: 20px;
+            height: 12%;
+            padding-left: 30px;
+        }
+
+        .menu{
+            display: inline-block;
+            vertical-align: top;
+            height: 80px;
+            padding: 25px;
+            
+        }
+
+        .menu ul {
+            margin: 0;
+            padding: 0;
+            margin-left: 120px;
+            
+        }
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .menu a {
+            padding-top: 15px;
+            padding-right: 13px;
+            color: white;
+            text-decoration: none;            
+        }
+        
+        .autenticacao {
+            float: right;
+            height: 80px;
+            padding: 25px;
+            font-family: "Ubuntu";
+            font-weight: bold;
+        }
+
+        .login {
+            color: white;
+            text-decoration: none;
+        }
+
+      .botao {
+            border-radius: 80px;
+            padding: 10px 25px;
+            margin: 10px;
+        }
+
+      .destaque {
+            background:white;
+            color: rgb(255, 82, 93);
+            text-decoration: none;
+            margin-left: auto;
+        }
+
+      .header{
+        font-family: "Ubuntu";
+        font-weight: bold;
+      }    
+      
+      .botao2 {
+            border-radius: 80px;
+            padding: 10px 25px;
+            margin: 10px;
+            float: left;
+            margin-left: 25%;
+            margin-right: auto;
+            display: inline block;
+            }
+
+      .destaque2 {
+            text-decoration: none;
+            background:white ;
+            color:hsl(356, 100%, 66%);
+            font-weight: bold;
+            }
+
+      .botao3 {
+            border-radius: 80px;
+            padding: 10px 25px ;
+            margin: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            float: left;
+            margin-left: 30%;
+            display: inline block;
+            }
+
+        .destaque3 {
+        background: hsl(356, 100%, 66%)e;
+        color: white;
+        border: solid 1px white;
+        text-decoration: none;
+        font-weight: bold;
+        }
+
+        h1 {
+        font-family: "Ubuntu";
+        width: 100%;  
+        font-size: 45px;    
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+        padding-bottom: 5px;
+        }
+
+        .p1{
+          color: white;
+          margin-bottom: 20px;
+          margin-left: 38%;
+          margin-block-end: 50%;
+          width: 100%;
+          text-align: center;
+        }
+
+        p {
+        font-family: "Ubuntu";
+        font-weight: 400;
+        font-size: 14px;
+        color: hsl(207, 13%, 34%);
+        }
+
+        h3 {
+        font-family:"Overpass";
+        font-size: 20px;
+        font-weight: 700;
+        color: hsl(207, 13%, 34%)
+        }
+
+        li {
+        font-family: "Ubuntu";
+        font-size: 15px;
+        }
+
+        .head{
+        padding-top: 45px;
+        padding-bottom:50px;
+        margin-left: 19%;
+        margin-right: 24% ;
+
+        }
+
+        .titulo1 {
+          font-family: "Ubuntu";
+          padding-top: 10%;
+          font-size: 35px;
+          font-weight: 500;
+          text-align: center;
+          color: hsl(207, 13%, 34%);
+          padding-bottom: 65px;
+
+        }
+
+        .parte1{
+          /*display: table;*/
+          padding: 60px 60px 60px 60px;
+          padding-bottom: 450px;
+          background-size: 850;
+          background-color: white;
+          
+        }
+      
+        .editorDesktop { 
+          overflow: hidden;
+          /*display: table-cell;*/
+          width: 55%;
+          float: right;
+          margin-left: 25%;
+          position: absolute;
+          margin-top: -150px;
+        }
+
+        .subtitulo1{
+          float: left;
+          margin-top: 7px;
+          display: table-cell;
+          margin-left: 120px;
+        }
+
+        .subtitulo2{
+          float: left;
+          margin-top: 250px;
+          display: table-cell;
+          position: absolute;
+          margin-left: 120px;
+        }
+
+        .texto1{
+          display: table-cell;
+          float: left;
+          margin-right: 7px;
+          width: 500px;
+          margin-top: 50px;
+          position: absolute;
+          margin-left: 120px;
+          line-height: 25px;
+         }
+
+        .texto2{
+        float: left;
+        width: 500px;
+        margin-top: 280px;
+        display: table-cell;
+        position: absolute;
+        margin-left: 120px;
+        line-height: 25px;
+        }
+
+        .parte2{
+        background-image: linear-gradient(to left,hsl(237, 17%, 21%), hsl(237, 23%, 32%)), url("file:///C:/Users/karen/OneDrive/%C3%81rea%20de%20Trabalho/JS/blogr-landing-page-main/images/bg-pattern-circles.svg");
+        background-position: left;
+        background-size: 100% 410px;
+        border-top-right-radius: 45%;
+        border-bottom-left-radius: 40%;
+        background-repeat: no-repeat;
+        border-bottom: 2px;
+        position: relative;
+       
+      }
+        
+        .subtitulo3 {
+          color: white;
+          float: right;
+          position: absolute;
+          text-align: left;
+          margin-left: 52%;
+          margin-top: 35px;
+          position: inline;
+          font-family: "Overpass";
+          padding-top: 10%;
+          font-size: 35px;
+        }
+
+        .Phones {
+          margin-left: 120px;
+        }
+
+        .texto3 {
+          font-family: "Ubuntu";
+          font-weight: 400;
+          font-size: 14px;
+          color: white;
+          float: left;
+          margin-right: 7px;
+          width: 500px;
+          margin-top: 250px;
+          position: absolute;
+          margin-left: 3%;
+          line-height: 25px;
+        }
+
+        .parte3{
+          width: 100%;
+          padding-bottom: 450px;
+          background-size: 400px;
+          background-color: white;
+          position: relative;
+          overflow: hidden;
+          padding-top: 150px;
+          margin-bottom: 150px;
+          margin-right: 0;
+        }
+
+        .laptopDesktop {
+          text-align: left;
+          display: relative;
+          width: 65%;
+          margin-top: -150px;
+          margin-left: -350px;
+          display: table-cell;
+          position: absolute;
+        }
+
+        .subtitulo4 {
+          float: right;
+          margin-top: 7px;
+          display: table-cell;
+          margin-left: 725px;
+          position: absolute;
+        }
+
+        .subtitulo5{
+          float: right;
+          margin-top: 250px;
+          display: table-cell;
+          position: absolute;
+          margin-left: 725px;
+        }
+
+        .texto4 {
+        float: right;
+        width: 500px;
+        margin-top: 35px;
+        display: table-cell;
+        position: absolute;
+        margin-left: 725px;
+        line-height: 25px;
+        }
+
+        .texto5{
+          float: right;
+          width: 500px;
+          margin-top: 280px;
+          display: table-cell;
+          position: absolute;
+          margin-left: 725px;
+          line-height: 25px;
+          }
+        
+
+        footer {
+          background-color: hsl(240, 10%, 16%);
+        }
+        
+        .foot {
+          text-decoration: none;
+          color: white;
+        }
+
+        th {
+          display: table-column;
+        }
+
+        td {
+          display: table-row-group;
+        }
+
+        /* RECURSIVIDADE DESKTOP */
+
+        @media (max-width: 680px){
+          .cabecalho {
+           display: flex;
+         }
+           .menu {
+             display: none;
+           }
+           h1, .p1{
+           display: none;
+         }
+           .editorDesktop{
+             display: inline-block;
+             margin-top: -150px ;
+             margin-left: 250px;
+             width: 100%;
+           }
+
+         .subtitulo1,.subtitulo2,.texto1,.texto2 {
+           display: block;
+           float: left;
+           text-align: left;
+           margin-left: auto;
+         }
+       }
+              
+       @media (max-width: 950px){
+           .autenticacao {
+               display: none;
+           }
+
+           .head {
+               display: none;
+           }
+           h1, .p1{
+           display: none;
+         }
+         .editorDesktop{
+             display: inline-block;
+             margin-left: 250px;
+             margin-top: auto;
+             width: 80%;
+             margin-top: -150px;
+           }
+           .subtitulo1,.subtitulo2,.texto1,.texto2 {
+           display: block;
+           float: left;
+           text-align: left;
+           margin-left: auto;
+         }
+         .parte2{
+           display: absolute;
+           float: right;
+           background-size: 100%;
+           overflow-y: hidden;
+         }
+         .Phones{
+           display: hidden;
+         }
+         .laptopDesktop {
+           display: none;
+         }
+
+         .subtitulo4,.subtitulo5, .texto4, .texto5{
+             display: block;
+             float: left;
+             text-align: left;
+             margin-left: 65px;          
+       } 
+     }
+
