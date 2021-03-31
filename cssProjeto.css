@@ -4,6 +4,7 @@
             overflow-x: hidden;
             margin:0;
             box-sizing: border-box;
+            max-width: 1440px;
 
         }
 
@@ -80,7 +81,7 @@
       .botao {
             border-radius: 80px;
             padding: 10px 25px;
-            margin: 10px;
+            margin: auto;
         }
 
       .destaque {
@@ -90,37 +91,33 @@
             margin-left: auto;
         }
 
-      .header{
-        font-family: "Ubuntu";
-        font-weight: bold;
-      }    
-      
-      .botao2 {
+     
+          .head{
+              width: 1400px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              padding-bottom: 5%;
+              margin-top: 75px;
+              
+        }    
+        
+        .botao2 {
             border-radius: 80px;
             padding: 10px 25px;
-            margin: 10px;
-            float: left;
-            margin-left: 25%;
-            margin-right: auto;
-            display: inline block;
             }
 
-      .destaque2 {
+        .destaque2 {
             text-decoration: none;
             background:white ;
             color:hsl(356, 100%, 66%);
             font-weight: bold;
             }
 
-      .botao3 {
+        .botao3 {
             border-radius: 80px;
             padding: 10px 25px ;
-            margin: 10px;
-            margin-left: auto;
-            margin-right: auto;
-            float: left;
-            margin-left: 30%;
-            display: inline block;
+                  
             }
 
         .destaque3 {
@@ -137,17 +134,18 @@
         font-size: 45px;    
         color: white;
         text-align: center;
-        margin-top: 5px;
+        margin-top: 120px;
         padding-bottom: 5px;
         }
 
         .p1{
+          display: flex;
           color: white;
-          margin-bottom: 20px;
-          margin-left: 38%;
-          margin-block-end: 50%;
-          width: 100%;
+          align-self: center;
+          flex-direction: row;
+          width: 325px;
           text-align: center;
+          margin: auto;
         }
 
         p {
@@ -167,14 +165,6 @@
         li {
         font-family: "Ubuntu";
         font-size: 15px;
-        }
-
-        .head{
-        padding-top: 45px;
-        padding-bottom:50px;
-        margin-left: 19%;
-        margin-right: 24% ;
-
         }
 
         .titulo1 {
@@ -243,53 +233,67 @@
         line-height: 25px;
         }
 
-        .parte2{
-        background-image: linear-gradient(to left,hsl(237, 17%, 21%), hsl(237, 23%, 32%)), url("file:///C:/Users/karen/OneDrive/%C3%81rea%20de%20Trabalho/JS/blogr-landing-page-main/images/bg-pattern-circles.svg");
-        background-position: left;
-        background-size: 100% 410px;
-        border-top-right-radius: 45%;
-        border-bottom-left-radius: 40%;
-        background-repeat: no-repeat;
-        border-bottom: 2px;
-        position: relative;
-       
-      }
-        
-        .subtitulo3 {
-          color: white;
-          float: right;
-          position: absolute;
-          text-align: left;
-          margin-left: 52%;
-          margin-top: 35px;
-          position: inline;
-          font-family: "Overpass";
-          padding-top: 10%;
-          font-size: 35px;
+  
+ 
+        .parte2 {
+          background-image: linear-gradient(to right,hsl(237, 23%, 32%, 0.6), hsl(237, 17%, 21%)), url('file:///C:/Users/karen/OneDrive/%C3%81rea%20de%20Trabalho/JS/blogr-landing-page-main/images/bg-pattern-circles.svg');
+          height: 400px;
+          background-position: left, left;
+          background-repeat: no-repeat no-repeat;
+          border-top-left-radius: 20%;
+          border-bottom-right-radius: 20%;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 10vh 10vh;
+          grid-template-areas: "...."
+                                "subtitulo3"
+                                "texto3"
+                                "....";
+         
         }
+        
 
-        .Phones {
-          margin-left: 120px;
+        .subtitulo3 {
+          font-family: "Overpass";
+          color: white;
+          grid-area: subtitulo3;
+          align-self: end;
+          grid-column-start: 3; 
+          grid-row-start: 7;
+          margin-bottom: 350px;
+          
         }
 
         .texto3 {
-          font-family: "Ubuntu";
-          font-weight: 400;
-          font-size: 14px;
           color: white;
-          float: left;
-          margin-right: 7px;
+          font-family: "Overpass";
+          grid-area: texto3;
+          align-self: end;
           width: 500px;
-          margin-top: 250px;
-          position: absolute;
-          margin-left: 3%;
           line-height: 25px;
+          grid-column-start: 3; 
+          grid-row-start: 7;
+          margin-bottom: 250px;
         }
 
+
+        .Phones{
+          grid-area: Phones;
+          align-self: stretch;
+          object-fit: cover;
+          grid-column-start: 0; 
+          grid-column-end: 1;
+          margin-left: 120px;
+          margin-bottom: 180px;
+          position: absolute;
+          z-index: 4;
+          
+        }
         .parte3{
           width: 100%;
           padding-bottom: 450px;
-          background-size: 400px;
+          
+          background-size: 900px;
           background-color: white;
           position: relative;
           overflow: hidden;
@@ -303,7 +307,7 @@
           display: relative;
           width: 65%;
           margin-top: -150px;
-          margin-left: -350px;
+          margin-left: -250px;
           display: table-cell;
           position: absolute;
         }
@@ -344,23 +348,39 @@
           line-height: 25px;
           }
         
-
         footer {
           background-color: hsl(240, 10%, 16%);
+          height: auto;
+          border-top-right-radius: 20%;
+          padding-top: 45px;
+          padding-bottom: 45px;
         }
-        
         .foot {
-          text-decoration: none;
-          color: white;
-        }
+          display: flex;
+          flex-direction: row;
+          justify-content:space-around;
+          margin-left: 120px;
+          margin-right: 180px;
+          }
+        
+        .foot li {
+          padding-top: 10px;
+         }
 
-        th {
-          display: table-column;
-        }
+         h4 {
+           padding-bottom: 10px;
+           color: white;
+           font-weight: 600;
+         }
 
-        td {
-          display: table-row-group;
-        }
+         .foot a {
+           color: white;
+           text-decoration: none;
+           font-weight: 300;
+           font-size: 12px;
+         }
+
+       
 
         /* RECURSIVIDADE DESKTOP */
 
@@ -387,6 +407,10 @@
            text-align: left;
            margin-left: auto;
          }
+
+         .Phones{
+          display: none
+        }
        }
               
        @media (max-width: 950px){
@@ -420,7 +444,7 @@
            overflow-y: hidden;
          }
          .Phones{
-           display: hidden;
+           display: none
          }
          .laptopDesktop {
            display: none;
