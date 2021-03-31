@@ -78,6 +78,7 @@
             text-decoration: none;
         }
 
+         /* BOTÕES */
       .botao {
             border-radius: 80px;
             padding: 10px 25px;
@@ -91,9 +92,13 @@
             margin-left: auto;
         }
 
-     
+        .destaque:hover {
+          background-color: hsl(356, 100%, 66%);
+          color:white;
+        }
+
           .head{
-              width: 1400px;
+              width: 100%;
               display: flex;
               flex-direction: row;
               justify-content: center;
@@ -113,11 +118,14 @@
             color:hsl(356, 100%, 66%);
             font-weight: bold;
             }
+            .destaque2:hover {
+              background-color: hsl(356, 100%, 66%);
+              color:white;
+            }
 
         .botao3 {
             border-radius: 80px;
             padding: 10px 25px ;
-                  
             }
 
         .destaque3 {
@@ -126,7 +134,15 @@
         border: solid 1px white;
         text-decoration: none;
         font-weight: bold;
+        margin-left: 15px;
         }
+
+        .destaque3:hover {
+          background-color: white;
+          color:hsl(356, 100%, 66%);
+        }
+
+        /* FIM BOTÕES */
 
         h1 {
         font-family: "Ubuntu";
@@ -179,7 +195,6 @@
         }
 
         .parte1{
-          /*display: table;*/
           padding: 60px 60px 60px 60px;
           padding-bottom: 450px;
           background-size: 850;
@@ -189,7 +204,6 @@
       
         .editorDesktop { 
           overflow: hidden;
-          /*display: table-cell;*/
           width: 55%;
           float: right;
           margin-left: 25%;
@@ -237,11 +251,12 @@
  
         .parte2 {
           background-image: linear-gradient(to right,hsl(237, 23%, 32%, 0.6), hsl(237, 17%, 21%)), url('file:///C:/Users/karen/OneDrive/%C3%81rea%20de%20Trabalho/JS/blogr-landing-page-main/images/bg-pattern-circles.svg');
-          height: 400px;
+          height: 450px;
+          margin-top: 150px;
           background-position: left, left;
           background-repeat: no-repeat no-repeat;
-          border-top-left-radius: 20%;
-          border-bottom-right-radius: 20%;
+          border-top-left-radius: 15%;
+          border-bottom-right-radius: 15%;
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: 10vh 10vh;
@@ -258,6 +273,7 @@
           color: white;
           grid-area: subtitulo3;
           align-self: end;
+          margin-left: 15px;
           grid-column-start: 3; 
           grid-row-start: 7;
           margin-bottom: 350px;
@@ -265,14 +281,17 @@
         }
 
         .texto3 {
+          font-family: "Ubuntu";
+          font-weight: 400;
+          font-size: 14px;
           color: white;
-          font-family: "Overpass";
           grid-area: texto3;
           align-self: end;
           width: 500px;
           line-height: 25px;
           grid-column-start: 3; 
           grid-row-start: 7;
+          margin-left: 15px;
           margin-bottom: 250px;
         }
 
@@ -283,7 +302,7 @@
           object-fit: cover;
           grid-column-start: 0; 
           grid-column-end: 1;
-          margin-left: 120px;
+          margin-left: 100px;
           margin-bottom: 180px;
           position: absolute;
           z-index: 4;
@@ -316,7 +335,7 @@
           float: right;
           margin-top: 7px;
           display: table-cell;
-          margin-left: 725px;
+          margin-left: 710px;
           position: absolute;
         }
 
@@ -325,7 +344,7 @@
           margin-top: 250px;
           display: table-cell;
           position: absolute;
-          margin-left: 725px;
+          margin-left: 710px;
         }
 
         .texto4 {
@@ -334,7 +353,7 @@
         margin-top: 35px;
         display: table-cell;
         position: absolute;
-        margin-left: 725px;
+        margin-left: 710px;
         line-height: 25px;
         }
 
@@ -344,7 +363,7 @@
           margin-top: 280px;
           display: table-cell;
           position: absolute;
-          margin-left: 725px;
+          margin-left: 710px;
           line-height: 25px;
           }
         
